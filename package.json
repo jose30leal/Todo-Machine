@@ -10,6 +10,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -29,5 +30,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://"
+  "homepage": "https://jose30leal.github.io.Todo-Machine",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
